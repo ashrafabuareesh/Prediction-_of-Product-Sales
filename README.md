@@ -21,12 +21,18 @@ Forecasting sales of food items sold in different stores. The goal is to help th
 ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/c33012b3-b386-44bf-94ee-2ce28a35891f)
  
  ## Exploratory Data Analysis
-
+ ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/8bcaf6a0-9d54-4c3d-93e6-417b11ce001c)
+* By carefully examining the graph showing items sold in each store, you can gain valuable insights into store performance, customer preferences, and potential areas for optimization or intervention.
+* The highest average seles of all items in a supermarket type3
+* The lowest average seles of all items in a grocery store
+ ## Exploratory Data Analysis
 ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/154ec1ab-6143-49e9-a2c4-1f455c661885)
+![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/0698222e-46f0-402c-8e01-42a26d3d7cb5)
+* By carefully examining the graph showing items sold in each store, you can gain valuable insights into store performance, customer preferences, and potential areas for optimization or intervention.
 * You might notice that certain stores sell more items than others, indicating differences in popularity, location, or marketing effectiveness.
 * Older stores might have had more time to establish their brand and reputation within the community, leading to higher sales due to customer loyalty and trust.
 * Older stores might be located in more favorable or established areas with higher foot traffic ,leading to higher sales.
-![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/0698222e-46f0-402c-8e01-42a26d3d7cb5)
+
 # Maching Learning Using the Following Models:
   - Linear Regression Model
   - Random Forest Regressor Model
