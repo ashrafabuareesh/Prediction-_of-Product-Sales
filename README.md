@@ -1,17 +1,38 @@
-# Prediction of-Product-Sales
+![Forecast](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/376f26ba-0199-412d-a2ac-90fc8385ced9)
+
+
+
+# Prediction of Product Sales
+ - Ashraf Abu Areesh
+
 Forecasting sales of food items sold in different stores. The goal is to help the retailer understand which product and outlet characteristics play critical roles in increasing sales.
 
- * the graph shows average sales in stores
+ # Data Source:
+  - Big Mart Sales Prediction : https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+  - For this dataset, there were 8523 rows and 12 columns.
+ # Data Dictionary:
+  ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/9f1844bd-12bd-4884-a931-84bde2754ed0)
+
+ # To prepare this data, the data was cleaned, and the following processes were performed:
+
+ ## Exploratory Data Analysis
+   * the graph shows average sales in stores
 
 ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/c33012b3-b386-44bf-94ee-2ce28a35891f)
+ 
+ ## Exploratory Data Analysis
 
-* You might notice that certain stores sell more items than others, indicating differences in popularity, location, or marketing effectiveness.
 ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/154ec1ab-6143-49e9-a2c4-1f455c661885)
+* You might notice that certain stores sell more items than others, indicating differences in popularity, location, or marketing effectiveness.
 * Older stores might have had more time to establish their brand and reputation within the community, leading to higher sales due to customer loyalty and trust.
 * Older stores might be located in more favorable or established areas with higher foot traffic ,leading to higher sales.
 ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/0698222e-46f0-402c-8e01-42a26d3d7cb5)
-
-## Models Evaluated & Results
+# Maching Learning Using the Following Models:
+  - Linear Regression Model
+  - Random Forest Regressor Model
+  - Tuned Random Forest Regressor Model
+    
+# Models Evaluated & Results
 - Linear Regression Model (Testing Set):
 
     - R^2: 0.567
@@ -33,6 +54,19 @@ Forecasting sales of food items sold in different stores. The goal is to help th
    - RMSE: 1,061.272
 
 - The Final Model Chosen was a Random Forest Regressor Model with the n_estimators tuned to 150.
-   - The Mean Absolute Error was off by about $738.078.
-   - The Root Mean Squared Error had a calculation of $1,061.272.
+- For the testing set on the model, 59.2% of the variance in y was explained by x.
+- The Mean Absolute Error was off by about $738.078.
+- The Root Mean Squared Error had a calculation of $1,061.272.
+- The Mean Absolute Error was off by about $738.078.
+
+ Overall, these metrics provide insights into the performance of the tuned Random Forest Regressor model. An R^2 of 0.592 suggests that the model explains a moderate amount of the variability in sales prices, while the MAE, MSE, and RMSE provide measures of the average errors made by the model in predicting sales prices.
+
+
+# Recommendations : 
+ - Feature Engineering: Explore additional features or transform existing features to better capture the underlying patterns in the data.
+ - Additional Data: Consider gathering additional relevant data that may further enhance the model's predictive power.
+ - Model Evaluation: Continuously monitor and evaluate the model's performance on new data and iterate on improvements as needed. Regularly updating and retraining the model with fresh data can help ensure its relevance and effectiveness over time.
+
+# For Further Information: 
+- aashrafareesh1998@gmail.com
 
