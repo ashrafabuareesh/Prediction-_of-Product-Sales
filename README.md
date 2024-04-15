@@ -45,6 +45,16 @@ Forecasting sales of food items sold in different stores. The goal is to help th
     - MAE: 804.194
     - MSE: 1194694.512
     - RMSE: 1093.021
+  ## Your LinearRegression coefficients plot
+     ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/27daf91b-204a-4e1d-99e3-e781e8d428f0)
+
+ *  outlet type : The type of store (outlet type) can be a factor that greatly influences sales and business performance for the reasons: Shopping Experience: All kinds of products we offer for a different shopping experience.
+ *  item_MRP : The maximum selling price of the item also seems to be important, as this factor usually reflects the value of the product and its demand by customers.
+ *   item_type_seafood : The presence of seafood in a store can have a significant impact on store performance and sales for several reasons:
+       -  Increase in additional sales
+       - Healthy options
+       - Uniqueness and distinction
+
 
 - Random Forest Regressor Model (Testing Set):
 
@@ -58,6 +68,15 @@ Forecasting sales of food items sold in different stores. The goal is to help th
    - MAE: 738.078
    - MSE: 1,126,298.846
    - RMSE: 1,061.272
+  ##  the feature importances (Random Forest Regressor) :
+    ![image](https://github.com/ashrafabuareesh/Prediction-_of-Product-Sales/assets/123064338/92521c4d-e448-4127-bc12-284dd598950d)
+  * the top 5 most important features:
+     - item_MRP : The maximum selling price of the tourist item is one of the most important factors that determine revenue and profitability
+     - outlet type : The type of store can greatly affect the level of sales, as stores with larger sizes and popularity can attract more customers and thus increase sales.
+     -  item visibility : Product visibility refers to how clearly the product appears in the store. The more visible the product is, the greater the chance that customers will buy it.
+     - item_weigt:  The weight of the product can affect several aspects such as shipping cost, storage costs and sales.
+     - outlet_Establishment _year : The year a store was founded can affect the level of sales
+* These five characteristics are very influential in analyzing data, guiding marketing strategies, and making managerial decisions in the context of merchandising and retailing.
 
 - The Final Model Chosen was a Random Forest Regressor Model with the n_estimators tuned to 150.
 - For the testing set on the model, 59.2% of the variance in y was explained by x.
